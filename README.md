@@ -93,6 +93,43 @@ pip install -r requirements.txt
 - Create a `.env` file in the root directory.
 - Add necessary environment variables (e.g., database credentials, API keys).
 
+Install postgresql
+
+```bash
+brew install postgresql
+```
+Run it
+
+```bash
+/opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
+```
+
+or
+
+```bash
+brew services start postgresql@14
+```
+
+Check if its running successfully
+```bash
+psql -U postgres -h localhost
+```
+
+Make the database for project
+```bash
+CREATE DATABASE fraud_detection;
+```
+
+Add this to ur env 
+```bash
+export DB_USER=postgres
+export DB_PASSWORD=postgres
+export DB_HOST=localhost
+export DB_PORT=5432
+export DB_NAME=fraud_detection
+```
+
+
 ```bash
 DATABASE_URL=postgresql://user:password@localhost:5432/frauddb
 MLFLOW_TRACKING_URI=http://localhost:5000
@@ -112,7 +149,7 @@ docker-compose up -d
 
 1. Run ETL Pipeline (Optional before training) :
 ```bash
-python etl/etl_pipeline.py
+python etl_pipeline.py
 ```
 
 2. Run training pipeline (MLFlow) :

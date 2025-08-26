@@ -11,3 +11,6 @@ mlflow
 lightgbm
 skl2onnx
 onnxruntime
+kagglehub
+xgboost
+imbalanced-learn

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+gunicorn
+scikit-learn
+pandas
+numpy
+imblearn
+sqlalchemy
+psycopg2-binary
+mlflow
+lightgbm
+skl2onnx
+onnxruntime

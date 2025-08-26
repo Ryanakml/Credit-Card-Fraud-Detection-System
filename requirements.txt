@@ -14,3 +14,4 @@ onnxruntime
 kagglehub
 xgboost
 imbalanced-learn
+joblib

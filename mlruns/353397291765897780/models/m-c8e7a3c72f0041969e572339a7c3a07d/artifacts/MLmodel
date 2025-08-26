@@ -1,0 +1,55 @@
+artifact_path: file:///Users/ryanakmalpasya/Documents/%5B1%5D%20BS/%5B2%5D%20Freelance/%5B3%5D%20PROJECTS/Credit%20Card%20Fraud%20Detection%20System%20/mlruns/353397291765897780/models/m-c8e7a3c72f0041969e572339a7c3a07d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.3.1
+model_id: m-c8e7a3c72f0041969e572339a7c3a07d
+model_size_bytes: 315458
+model_uuid: m-c8e7a3c72f0041969e572339a7c3a07d
+prompts: null
+run_id: 5e6e468f841d4328ae7cdf3a32789361
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "V1", "required": true}, {"type": "double",
+    "name": "V2", "required": true}, {"type": "double", "name": "V3", "required":
+    true}, {"type": "double", "name": "V4", "required": true}, {"type": "double",
+    "name": "V5", "required": true}, {"type": "double", "name": "V6", "required":
+    true}, {"type": "double", "name": "V7", "required": true}, {"type": "double",
+    "name": "V8", "required": true}, {"type": "double", "name": "V9", "required":
+    true}, {"type": "double", "name": "V10", "required": true}, {"type": "double",
+    "name": "V11", "required": true}, {"type": "double", "name": "V12", "required":
+    true}, {"type": "double", "name": "V13", "required": true}, {"type": "double",
+    "name": "V14", "required": true}, {"type": "double", "name": "V15", "required":
+    true}, {"type": "double", "name": "V16", "required": true}, {"type": "double",
+    "name": "V17", "required": true}, {"type": "double", "name": "V18", "required":
+    true}, {"type": "double", "name": "V19", "required": true}, {"type": "double",
+    "name": "V20", "required": true}, {"type": "double", "name": "V21", "required":
+    true}, {"type": "double", "name": "V22", "required": true}, {"type": "double",
+    "name": "V23", "required": true}, {"type": "double", "name": "V24", "required":
+    true}, {"type": "double", "name": "V25", "required": true}, {"type": "double",
+    "name": "V26", "required": true}, {"type": "double", "name": "V27", "required":
+    true}, {"type": "double", "name": "V28", "required": true}, {"type": "double",
+    "name": "Amount", "required": true}, {"type": "double", "name": "Hour", "required":
+    true}, {"type": "double", "name": "DayOfWeek", "required": true}, {"type": "double",
+    "name": "Avg_Amount", "required": true}, {"type": "double", "name": "Amount_to_Avg_Amount",
+    "required": true}, {"type": "double", "name": "Trans_Freq", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-26 08:51:20.681611'

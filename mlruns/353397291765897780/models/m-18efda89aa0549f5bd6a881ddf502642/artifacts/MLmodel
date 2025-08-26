@@ -1,0 +1,27 @@
+artifact_path: file:///Users/ryanakmalpasya/Documents/%5B1%5D%20BS/%5B2%5D%20Freelance/%5B3%5D%20PROJECTS/Credit%20Card%20Fraud%20Detection%20System%20/mlruns/353397291765897780/models/m-18efda89aa0549f5bd6a881ddf502642/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.1
+model_id: m-18efda89aa0549f5bd6a881ddf502642
+model_size_bytes: 9748
+model_uuid: m-18efda89aa0549f5bd6a881ddf502642
+prompts: null
+run_id: 65d052278ac5428b96373fc46ad4d214
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+utc_time_created: '2025-08-26 08:42:32.647362'

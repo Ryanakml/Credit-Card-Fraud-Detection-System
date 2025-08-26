@@ -1,0 +1,10 @@
+artifact_location: file:///Users/ryanakmalpasya/Documents/%5B1%5D%20BS/%5B2%5D%20Freelance/%5B3%5D%20PROJECTS/Credit%20Card%20Fraud%20Detection%20System%20/mlruns/353397291765897780/models/m-caceef4ddb12435c870dd1c1159873d7/artifacts
+creation_timestamp: 1756197205831
+experiment_id: '353397291765897780'
+last_updated_timestamp: 1756197208062
+model_id: m-caceef4ddb12435c870dd1c1159873d7
+model_type: null
+name: model
+source_run_id: b5f79b575e9e48e491595cf9c12c1ffd
+status: 2
+status_message: null

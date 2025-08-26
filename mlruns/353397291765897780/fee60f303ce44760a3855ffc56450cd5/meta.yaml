@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ryanakmalpasya/Documents/%5B1%5D%20BS/%5B2%5D%20Freelance/%5B3%5D%20PROJECTS/Credit%20Card%20Fraud%20Detection%20System%20/mlruns/353397291765897780/fee60f303ce44760a3855ffc56450cd5/artifacts
+end_time: 1756197443840
+entry_point_name: ''
+experiment_id: '353397291765897780'
+lifecycle_stage: active
+run_id: fee60f303ce44760a3855ffc56450cd5
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756197382905
+status: 3
+tags: []
+user_id: ryanakmalpasya
